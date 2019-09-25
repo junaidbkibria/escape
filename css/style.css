@@ -1,0 +1,490 @@
+@font-face{
+	src:url(../brandon-grotesque-cufonfonts/Brandon_bld.otf);
+	font-family: Brandon_bld;
+	src:url(../brandon-grotesque-cufonfonts/Brandon_light.otf);
+	font-family: Brandon_light;
+	src:url(../brandon-grotesque-cufonfonts/Brandon_med.otf);
+	font-family: Brandon_med;
+	src:url(../brandon-grotesque-cufonfonts/Brandon_reg.otf);
+	font-family: Brandon_reg;
+}
+body{
+	margin: 0 ;
+	padding: 0 ;
+
+}
+.hb {
+	background-image: url(../images/banner.jpg);
+	background-size:cover;
+	background-position: center;
+	height: 700px;
+	padding: 40px 0;
+}
+
+.header {
+}
+
+.wrapper1 {
+	width: 67%;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+	overflow: hidden;
+
+}
+
+.logo1 {
+	width: 5%;
+	float: left;
+	/*border: 1px solid;*/
+}
+.logo1 img{
+	width: 70%;
+	text-align: right;
+
+}
+
+.logo2 {
+	width: 15%;
+	float: left;
+	/*border: 1px solid;*/
+	padding: 5px 0;
+
+}
+.logo2 img{
+	width: 70%;
+
+}
+
+.nav {
+	width: 45%;
+	margin left: 40%;
+	float: right;
+	/*border: 1px solid;*/
+}
+.nav ul{
+	float: right;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+}
+.nav ul li a{
+	font-family: Brandon_med, sans-serif;
+	font-weight: medium;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 0 20px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.nav ul li:last-child a{
+	padding-right: 0;
+}
+.nav ul li a:hover{
+	color: orange;
+}
+.banner {
+
+}
+.b_content {
+	font-family: Brandon_light, sans-serif;
+	/*font-weight: 300;*/
+	font-size: 32px;
+	color: #ffffff;
+	text-align: center; 
+	padding-top: 200px;
+}
+h1{
+	font-family: Brandon_bld, sans-serif;
+	/*font-weight: 700;*/
+	font-size: 66px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button {
+	font-family: Brandon_bld, sans-serif;
+	font-size: 23px;
+	color: #ffffff;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    /*border: none;*/
+    cursor:pointer;
+    overflow: hidden; 
+    width: 240px;
+    height: 65px;
+    border-radius: 5px;
+    text-align:center;
+    margin: 0 490px;
+}
+.about1 {
+}
+
+.wrapper2 {
+	overflow: hidden;
+	width: 62%;
+	margin:0 auto;
+	/*border: 1px solid;*/
+	padding:90px 0;
+}
+
+.l {
+	width: 68%;
+	float: left;
+}
+.web{
+	font-family: Brandon_light, sans-serif;
+	font-size: 60px;
+	color: #222222;
+	margin: 0 0;
+}
+
+.development{
+	font-family: Brandon_bld,sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+	color: #222222;
+}
+p{
+	font-family: Brandon_reg;
+	font-size: 18px;
+	color: #777777;
+}
+
+.r {
+	width: 28%;
+	float: right;
+	margin: 20px 0;
+}
+.r img{
+	width: 70%;
+	float: right;
+}
+.l1{
+	width: 28%;
+	float: left;
+	margin: 20px 0;
+}
+.l1 img{
+	width: 80%;
+	float: left;
+}
+.r1{
+	width: 68%;
+	float: left;
+}
+#circle {
+	 width: 72px;
+     height: 72px;
+     background: black;
+     border-radius: 50%;
+}
+.about3{
+	background-color: #FAFAFA;
+}
+
+.about4 {
+}
+.left {
+	width: 48%;
+	/*border: 1px solid;*/
+	float: left;
+}
+
+.single {
+	overflow: hidden;
+	padding-bottom: 50px;
+	width: 100%;
+	/*border: 1px solid;*/
+	padding-right: 0;
+}
+
+.leftimage {
+	width: 20%;
+	float: left;
+	/*border: 1px solid;*/
+}
+.leftimage img{
+	padding: 18px 18px;
+}
+
+.rightcontent {
+	width: 75%;
+	float: right;
+	/*border: 1px solid;*/
+}
+
+.p_content {
+	font-family: Brandon_bld,sans-serif;
+	font-size: 22px;
+	color: #222222;
+	/*border: 1px solid;*/
+	margin: 0 0;
+}
+
+.right {
+	width: 48%;
+	float: right;
+	padding-right: 0;
+	margin-right: 0;
+}
+.about5{
+	background-color: #FAFAFA
+}
+.web1{
+	font-family: Brandon_light, sans-serif;
+	font-size: 60px;
+	color: #222222;
+	text-align: center;
+	margin: 20px 0;
+
+}
+.clients{
+	font-family: Brandon_bld,sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+	color: #222222;
+	/*text-align: center;*/
+
+}
+.nicethings{
+	font-family: Brandon_bld,sans-serif;
+	font-size: 22px;
+	color: #222222;
+	/*border: 1px solid;*/
+	text-align: center;
+}
+.image{
+	width: 22%;
+	float: left;
+	/*border: 1px solid;*/
+}
+.image img{
+	width: 100%;
+}
+.bubble{
+	background-image: url(../images/speakbox.png);
+	width: 60%;
+	height: 200px;
+	background-size:cover;
+	background-position: center;
+	float: left;
+	margin-left: 5%;
+	/*border: 1px solid;*/
+	margin-top: 30px;
+
+}
+.bu_content{
+	width: 65%;
+	margin: 0 auto;
+}
+.bubble p{
+	text-align: left;
+	font-family: Brandon_reg;
+	font-size: 26px;
+	color: #777777;
+}
+.clientname{}
+.bubble1{
+	background-image: url(../images/speakbox2.png);
+	width: 60%;
+	height: 200px;
+	background-size:cover;
+	background-position: center;
+	float: left;
+	margin-left: 5%;
+	/*border: 1px solid;*/
+	margin-top: 30px;
+	margin-right: 50px;
+}
+.bubble1 p{
+	text-align: left;
+	font-family: Brandon_reg;
+	font-size: 26px;
+	color: #777777;
+}
+.logos {
+}
+
+.logo_wrapper {
+	overflow: hidden;
+	width:45%;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img1 {
+	float: left;
+	padding: 0 20px;
+}
+
+.img2 {
+	float: left;
+	padding: 0 20px;
+}
+
+.img3 {
+	float: left;
+	padding: 0 20px;
+}
+
+.img4 {
+	float: left;
+	padding: 0 20px;
+}
+.about6{
+	background-color: #111111;
+}
+.team{
+	font-family: Brandon_reg, sans-serif;
+	font-size: 60px;
+	color: #ffffff;
+	text-align: center;
+	margin: 20px 0;
+}
+.teem{
+	font-family: Brandon_bld, sans-serif;
+	font-size: 60px;
+	color: #ffffff;
+	margin: 20px 0;
+}
+.single1 {
+	width: 32%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+
+.whitecircle {
+	/*border: 1px solid white;*/
+}
+.whitecircle img{
+	padding: 0 65px;
+}
+
+.member {
+	font-family: Brandon_bld;
+	font-size: 20px;
+	color: #ebebeb;
+	text-align: center;
+}
+
+.post {
+	font-family: Brandon_reg;
+	font-size: 20px;
+	color: #ebebeb;
+	text-align: center;
+}
+.logodiv{
+	overflow: hidden;
+	width: 75%;
+	margin: 0 auto;
+	/*border: 1px solid white;*/
+	padding: 20px 30px;
+}
+
+.twitter {
+	background-image: url(../images/whitecirclesmall.png);
+	background-size:cover;
+	background-position: center;
+	float: left;
+	margin: 0 10px;
+	/*border: 1px solid white;*/
+	padding: 20px 20px;
+}
+
+.fb {
+	background-image: url(../images/whitecirclesmall.png);
+	background-size:cover;
+	background-position: center;
+	float: left;
+	margin: 0 10px;
+	/*border: 1px solid white;*/
+	padding: 20px 27px;
+}
+
+
+.pinterest {
+	background-image: url(../images/whitecirclesmall.png);
+	background-size:cover;
+	background-position: center;
+	float: left;
+	margin: 0 10px;
+	/*border: 1px solid white;*/
+	padding: 20px 27px;
+}
+.pp{
+	font-family: Brandon_reg;
+	font-size: 20px;
+	color: #ebebeb;
+	text-align: center;
+}
+.about7 {
+	background-color: #758FC4;
+}
+
+.wleft {
+	width: 48%;
+	float: left;
+	/*border: 1px solid white;*/
+}
+
+.say {
+	font-family: Brandon_light,sans-serif;
+	font-weight: 200;
+	font-size: 60px;
+	color: #ffffff;
+	display: inline;
+}
+
+.hello {
+	font-family: Brandon_bld,sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	color: #ffffff;
+}
+
+.shy {
+	font-family: Brandon_reg;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.wbottom {
+	overflow: hidden;
+	/*border: 1px solid white;*/
+}
+
+.bottomleft {
+	float: left;
+	margin-right: 80px;
+	/*border: 1px solid white;*/
+}
+.bottomleft p{
+	font-family: Brandon_reg;
+	font-size: 18px;
+	color: #ffffff;
+	/*margin-left: 20px;*/
+}
+.bottomleft img{
+	padding-right: 20px;
+}
+
+.wright {
+	/*border: 1px solid white;*/
+}
+.name{
+	display: block;
+	width: 457px;
+	height: 51px;
+	margin-bottom: 20px;
+	float: right;
+}
+.mbox{
+	display: block;
+	width: 457px;
+	height: 209px;
+	float: right;
+}
